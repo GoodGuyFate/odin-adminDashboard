@@ -43,6 +43,9 @@ ul {
   background-color: #1992d4;
   color: white;
 }
+.sidebar-header {
+    margin-top: 5px;
+}
 .container-nav,
 .container-settings {
   display: grid;
@@ -53,7 +56,6 @@ ul {
   display: grid;
   grid-template-columns: 2fr 1fr;
   grid-template-rows: 1fr 2fr 2fr;
-  row-gap: 40px;
   font-family: sans-serif;
   /* border: solid 4px red; */
   background: #e2e8f0;
@@ -70,7 +72,7 @@ ul {
 }
 .container-projects {
   margin: 10px;
-  grid-row: 2/4;
+  grid-row: 2 / 4;
   /* border: solid; */
   background: red;
 }
@@ -89,7 +91,6 @@ ul {
   grid-template-rows: auto auto;
   align-content: space-around;
   padding-left: 40px;
-
   /* border: solid purple 2px; */
 }
 .container-links {
