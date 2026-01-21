@@ -44,7 +44,7 @@ ul {
   color: white;
 }
 .sidebar-header {
-    margin-top: 5px;
+  margin-top: 5px;
 }
 .container-nav,
 .container-settings {
@@ -93,9 +93,6 @@ ul {
   padding-left: 40px;
   /* border: solid purple 2px; */
 }
-.container-links {
-  border: solid blue 2px;
-}
 .search label {
   display: none;
 }
@@ -105,7 +102,6 @@ ul {
   gap: 15px;
   align-items: center;
   width: 95%;
-  
 }
 .search-icon {
   width: 22px;
@@ -126,15 +122,53 @@ ul {
   border-color: transparent;
 }
 .user-container {
-    display: flex;
-    align-items: center;
-    font-size: 12px;
-    gap: 20px;
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  gap: 20px;
 }
 .user-logo {
-    height: 64px;
-    width: 64px;
+  height: 64px;
+  width: 64px;
 }
 .username p {
-    font-weight: bold;
+  font-weight: bold;
+}
+.container-links {
+  display: grid;
+  align-items: center;
+  /* border: solid blue 2px; */
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.profile-link {
+  display: flex;
+  font-weight: bold;
+  gap: 20px;
+  justify-content: end;
+  margin-right: 80px;
+  align-items: center;
+}
+.user-logo-two {
+  height: 34px;
+}
+.bell-icon {
+  height: 20px;
+}
+.btn-item {
+  background-color: #1992d4;
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.1s;
+}
+.btn-item:hover {
+  background-color: #157cb4;
+  transform: scale(1.05);
 }
