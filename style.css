@@ -45,7 +45,6 @@ ul {
   font-family: Roboto, sans-serif;
   grid-row: 1 / 2;
   gap: 40px;
-  /* border: solid 4px green; */
   background-color: #1992d4;
   color: white;
   z-index: 1;
@@ -71,7 +70,6 @@ li {
 }
 .sidebar-header {
   font-size: 25px;
-
 }
 .container-nav,
 .container-settings {
@@ -161,7 +159,6 @@ li {
 .container-links {
   display: grid;
   align-items: center;
-  /* border: solid blue 2px; */
 }
 .button-container {
   display: flex;
@@ -200,7 +197,6 @@ li {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(clamp(250px, 48%, 100%), 1fr));
   gap: 20px;
-  /* border: solid red; */
 }
 .card-item {
   display: grid;
@@ -218,14 +214,12 @@ li {
     0 6px 20px 0 rgba(0, 0, 0, 0.07);
   min-height: 200px;
   width: 100%;
-  /* border: solid; */
 }
 .card-content {
   display: grid;
   grid-template-rows: 1fr auto;
   gap: 30px;
   margin: 30px;
-  /* border: solid orange; */
 }
 .card-buttons {
   display: flex;
@@ -252,15 +246,12 @@ li {
     0 4px 8px 0 rgba(0, 0, 0, 0.1),
     0 6px 20px 0 rgba(0, 0, 0, 0.07);
   padding: 10px 30px;
-  /* border: red solid; */
 }
 .announcement-card-container {
   display: grid;
   justify-content: start;
   border-bottom: 1px solid #e2e8f0;
   padding: 10px 0;
-
-  /* border: solid; */
 }
 .announcement-card-container:last-child {
   border-bottom: none;
